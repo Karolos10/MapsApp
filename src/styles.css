@@ -3,3 +3,5 @@
 @plugin "daisyui"{
   themes: light --default, dark --prefersdark, night;
 }
+/* filepath: c:\Users\CARLO\Desktop\Maps\maps-app\src\styles.css */
+@import 'mapbox-gl/dist/mapbox-gl.css';

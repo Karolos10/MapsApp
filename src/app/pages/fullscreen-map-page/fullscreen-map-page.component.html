@@ -15,4 +15,14 @@
     (input)="zoom.set(+txtzoom.value)"
     #txtzoom
   />
+
+  <h2 class="text-2xl font-bold text-black mb-2">Coordenadas
+    <pre class="text-sm text-gray-500 font-normal">{{
+        {
+          latitude: coordinates().lat | number: '1.4-4',
+          longitude: coordinates().lng | number: '1.4-4',
+        } | json
+      }}
+    </pre>
+  </h2>
 </section>
